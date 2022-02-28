@@ -1,0 +1,18 @@
+{
+   "IsShowLogInitializeSecrets": true,
+   "IsLibrary": true,
+   "Library": {
+      "SourceDirectoryName": "Deploy_Libraries",
+      "SourceExtentsionFile": ["*.dll", "*.exe"],
+      "IsFileNames": false,
+      "FileNames": ["OTH.PAY.ViettinBank.Crypto.dll"],
+      "OutputExtentsionFile": ".libraryfile.json"
+   },
+   "GithubInfo": {
+      "OwnerSplashRepository": "oy2022/libraries"
+   },
+   "IsGitCommitExecute": true,
+   "GitCommitExecute": {
+      "ExcludeComputerNames": ["DESKTOP-R47HD5C"]
+   }
+}

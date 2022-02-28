@@ -1,0 +1,24 @@
+{
+   "name": "actions-libraryfile",
+   "version": "1.0.0",
+   "description": "actions-libraryfile",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "buildjs": "ncc build source\\index.js -o dist --minify --no-cache",
+      "buildps": "xcopy source\\index.ps1 dist\\index.ps1 /Y",
+      "build": "ncc build source\\index.js -o dist --minify --no-cache&&xcopy source\\index.ps1 dist\\ /Y&&xcopy /S /Y source\\.githubsecrets dist\\.githubsecrets&&xcopy /Y /A source\\option.executer.json dist\\",
+      "o861325test-init": "powershell -ExecutionPolicy ByPass -File synccode.ps1 -Kind Init -DirectoryPath E:/CLOUDCODE/gmail.com/ongtrieuhau861.325@gmail.com/test",
+      "o861325test-code": "powershell -ExecutionPolicy ByPass -File synccode.ps1 -Kind ChangeCodeFiles -DirectoryPath E:/CLOUDCODE/gmail.com/ongtrieuhau861.325@gmail.com/test",
+      "o861320libraries-init": "powershell -ExecutionPolicy ByPass -File synccode.ps1 -Kind Init -DirectoryPath E:/CLOUDCODE/gmail.com/ongtrieuhau861.320@gmail.com/oghT03-00/libraries",
+      "o861320libraries-code": "powershell -ExecutionPolicy ByPass -File synccode.ps1 -Kind ChangeCodeFiles -DirectoryPath E:/CLOUDCODE/gmail.com/ongtrieuhau861.320@gmail.com/oghT03-00/libraries",
+      "o861325libraries-init": "powershell -ExecutionPolicy ByPass -File synccode.ps1 -Kind Init -DirectoryPath E:/CLOUDCODE/gmail.com/ongtrieuhau861.325@gmail.com/github.com/oy2022/libraries",
+      "o861325libraries-code": "powershell -ExecutionPolicy ByPass -File synccode.ps1 -Kind ChangeCodeFiles -DirectoryPath E:/CLOUDCODE/gmail.com/ongtrieuhau861.325@gmail.com/github.com/oy2022/libraries"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/o-ngtrieuhau861gmailcom/oListRepos.git"
+   },
+   "author": "",
+   "license": "ISC"
+}
