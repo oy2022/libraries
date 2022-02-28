@@ -1,0 +1,17 @@
+{
+  "OriginalFilename": "OTH.PAY.ViettinBank.Crypto.dll",
+  "FileVersion": "1.20.1125.0",
+  "FileDescription": "Thực hiện mã hóa và giải mã đối với Pay ViettinBank",
+  "FileLength": 9728,
+  "IsExe": false,
+  "FileHashMD5": "28017786D52200CFA9CB9B57F0699478",
+  "FileHashSHA1": "CABFA594C3C42AE9989EAA62E1A6E7C2269547EC",
+  "AssemblyFullName": "OTH.PAY.ViettinBank.Crypto, Version=1.20.1125.0, Culture=neutral, PublicKeyToken=null",
+  "AssemblyFullNameMD5": "B6979C204C992FEB8FA0FB7ADB6C82B7",
+  "AssemblyFullNameSHA1": "A1BC09EE077F1C615D323230C8E8B6A08BB3D00A",
+  "AssemblyName": "OTH.PAY.ViettinBank.Crypto",
+  "AssemblyVersion": "1.20.1125.0",
+  "AssemblyProcessorArchitecture": "MSIL",
+  "AssemblyImageRuntimeVersion": "v4.0.30319",
+"ReferencedAssemblies": []
+}
